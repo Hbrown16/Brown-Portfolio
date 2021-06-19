@@ -1,6 +1,7 @@
 # Haley Browns Portfolio
 
 ## Table of Contents
+
 1. [Contact Information]()
 2. [My Links]()
 3. [Applications Details]()
@@ -14,6 +15,7 @@
 
 
 ## My Links
+
 1. [GitHub Profile]()
 2. [Updated Resume]()
 3. [Updated LinkedIn]()
@@ -28,6 +30,14 @@
 
 
 ## Requirements
+
+* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+
+* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+
+* Submit an updated resume
+
+* Submit an updated LinkedIn profile
 
 
 ## Helpful Links
