@@ -22,6 +22,14 @@
 3. [Updated LinkedIn](https://www.linkedin.com/in/haley-brown-b64a6727/)
 
 ## Applications Details
+* Homepage
+    * About Me
+    * My Assignments / Projects
+    * Links to:
+        * GitHub
+        * LinkdIn
+        * Resume
+    * Contact Information
 
 
 ## Demo Video
