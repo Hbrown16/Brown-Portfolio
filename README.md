@@ -28,7 +28,9 @@
 
 
 ## User Story
+This Portfolio is about me and my path to be coming a Fullstack Webdeveloper. I have created a handful of projects and assigments and am still working on more. 
 
+Conne ted in the README and the website are links to my GitHub, LinkdIn, and Resume. Please take sometime and look at what I have created. I am fully commited to this and want to make this a career. Thank you for your time, I hope you enjoy!
 
 ## Requirements
 
