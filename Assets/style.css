@@ -91,7 +91,7 @@ main{
 
 .hero-banner{
     background:rgb(8, 22, 46);
-    background-image: url("./Images/hero-banner-image.jpeg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image:url("./Images/coding-banner.jpeg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-blend-mode: normal;
     min-height: 30vh;
