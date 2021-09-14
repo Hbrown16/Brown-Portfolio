@@ -34,7 +34,7 @@
 
 
 ## Demo Video
-
+![Portfolio](Assets/Images/port.gif)
 
 ## User Story
 This Portfolio is about me and my path to be coming a Fullstack Webdeveloper. I have created a handful of projects and assigments and am still working on more. 
