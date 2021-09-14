@@ -91,7 +91,7 @@ main{
 
 .hero-banner{
     background:rgb(8, 22, 46);
-    background-image:url("./Images/coding-banner.jpeg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("./Images/coding-banner.jpeg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-blend-mode: normal;
     min-height: 30vh;
@@ -107,10 +107,10 @@ main{
 }
 
 .hero-banner h2 {
-    color:rgb(255, 255, 255);
+    color:rgb(255, 0, 170);
     margin: 0;
     padding: 5px 10px;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     line-height: 1.5;
     display: inline;
 }
@@ -152,14 +152,14 @@ main{
 }
 
 .flex-container {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .flex-item {
     border: 5px solid var(--secondary);
-    background-image: url("./Images/Screen\ Shot\ 2021-05-07\ at\ 1.32.07\ PM.png");
+    background-image: url("Images/unit1.png");
     color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
@@ -183,6 +183,82 @@ main{
     background-color:none;
 }
 
+.pass{
+    border: 5px solid var(--secondary);
+    background-image: url("Images/pass.png");
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem; 
+}
+
+.pass:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.pass:hover{
+    background-color:none;
+}
+
+.day{
+    border: 5px solid var(--secondary);
+    background-image: url("Images/DPdemo.gif");
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;  
+}
+.day:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.day:hover{
+    background-color:none;
+}
+
+.Ask_Oracle{
+    border: 5px solid var(--secondary);
+    background-image: url("Images/Askoracle.gif");
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;  
+}
+
+.Ask_Oracle:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.Ask_Oracle:hover{
+    background-color:none;
+}
 .contact address {
     display: flex;
     flex-wrap: wrap;
