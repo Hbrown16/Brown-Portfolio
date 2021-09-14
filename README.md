@@ -20,6 +20,7 @@
 1. [GitHub Profile](https://github.com/Hbrown16)
 2. [Updated Resume]()
 3. [Updated LinkedIn](https://www.linkedin.com/in/haley-brown-b64a6727/)
+4. [Deployed Link](https://hbrown16.github.io/Brown-Portfolio/)
 
 ## Applications Details
 * Homepage
