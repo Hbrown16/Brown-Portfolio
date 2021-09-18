@@ -285,6 +285,28 @@ main{
 .Team:hover{
     background-color:none;
 }
+
+.Note-Taker{
+    border: 5px solid var(--secondary);
+    background-image: url("Images/ntd.gif");
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem; 
+}
+
+.Note-Taker{
+    background-color:none;
+}
+
 .contact address {
     display: flex;
     flex-wrap: wrap;
