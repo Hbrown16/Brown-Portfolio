@@ -90,7 +90,6 @@ main{
 }
 
 .hero-banner{
-    background:rgb(8, 22, 46);
     background-image: url("./Images/coding-banner.jpeg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-blend-mode: normal;
@@ -100,6 +99,7 @@ main{
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
+    opacity: 2.0;
 }
 
 .hero-banner div {
@@ -107,10 +107,11 @@ main{
 }
 
 .hero-banner h2 {
-    color:rgb(255, 0, 170);
+    color:rgb(247, 5, 255);
     margin: 0;
     padding: 5px 10px;
     font-size: 2.0rem;
+    font-weight:bold;
     line-height: 1.5;
     display: inline;
 }
@@ -180,7 +181,7 @@ main{
 }
 
 .flex-item:hover{
-    background-color:none;
+    background-color: rgb(14, 212, 238);
 }
 
 .contact address {
