@@ -5,7 +5,7 @@
 :root {
  --primary: rgb(31, 81, 175);
  --secondary: rgb(0, 195, 255);
- --tertiary: rgb(51, 59, 75);
+ --tertiary: rgb(0, 0, 0);
  --dark: rgba(23, 32, 42);
  --light: rgba(253, 254, 254);
 }
@@ -111,7 +111,7 @@ main{
     margin: 0;
     padding: 5px 10px;
     font-size: 2.0rem;
-    font-weight:bold;
+    font: weight 100px;;
     line-height: 1.5;
     display: inline;
 }
@@ -143,6 +143,7 @@ main{
     font-size: 5vw;
     line-height: 1.2;
 }
+
 
 .page-section > div {
     flex: 0 0 75%;
