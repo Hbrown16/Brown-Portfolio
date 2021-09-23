@@ -160,7 +160,6 @@ main{
 
 .flex-item {
     border: 5px solid var(--secondary);
-    background-image: url("Images/unit1.png");
     color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
@@ -182,160 +181,6 @@ main{
 
 .flex-item:hover{
     background-color:none;
-}
-
-.pass{
-    border: 5px solid var(--secondary);
-    background-image: url("Images/pass.png");
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.9rem; 
-}
-
-.pass:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
-.pass:hover{
-    background-color:none;
-}
-
-.day{
-    border: 5px solid var(--secondary);
-    background-image: url("Images/DPdemo.gif");
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.9rem;  
-}
-.day:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
-.day:hover{
-    background-color:none;
-}
-
-.Ask_Oracle{
-    border: 5px solid var(--secondary);
-    background-image: url("Images/Askoracle.gif");
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.9rem;  
-}
-
-.Ask_Oracle:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
-.Ask_Oracle:hover{
-    background-color:none;
-}
-
-.Team{
-    border: 5px solid var(--secondary);
-    background-image: url("Images/team.gif");
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.9rem;   
-}
-
-.Team:first-child{
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
-.Team:hover{
-    background-color:none;
-}
-
-.Note-Taker{
-    border: 5px solid var(--secondary);
-    background-image: url("Images/ntd.gif");
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.9rem; 
-}
-
-.Note-Taker:first-child{
-    min-height: 400px;
-    flex-basis: 100%;
-}
-.Note-Taker:hover{
-    background-color:none;
-}
-
-.Vibez{
-    border: 5px solid var(--secondary);
-    background-image: url("Images/vibez-logo.png");
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.9rem; 
-}
-
-.Vibez:first-child{
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
-.Vibez:hover{
-    background-color:none,
 }
 
 .contact address {
@@ -422,6 +267,34 @@ main{
     }
   }
   
+  .Unit {
+    background-image: url("./Images/unit1.png");
+  }
+  
+  .pass {
+    background-image: url("./Images/pass.png");
+  }
+  
+  .day {
+    background-image: url("./Images/DPdemo.gif");
+  }
+  
+  .Ask_Oracle {
+    background-image: url("./Images/Askoracle.gif");
+  }
+  
+  .Team {
+    background-image: url("./Images/team.gif");
+  }
+
+  .noteTaker {
+    background-image: url("./Images/ntd.gif");
+  }
+
+  .Vibez {
+    background-image: url("./Images/vibez-logo.png");
+  }
+
   @media screen and (max-width: 768px) {
     .flex-item,
     .flex-item:first-child {
